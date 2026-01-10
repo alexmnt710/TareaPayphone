@@ -1,0 +1,7 @@
+/* Logos CSS Variables */
+:root {
+  --logo-size-sm: 24px;
+  --logo-size-md: 32px;
+  --logo-size-lg: 48px;
+  --logo-size-xl: 64px;
+}

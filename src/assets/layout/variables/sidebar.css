@@ -1,0 +1,9 @@
+/* Sidebar CSS Variables */
+:root {
+  --sidebar-width: 280px;
+  --sidebar-width-collapsed: 80px;
+  --sidebar-transition: all 0.3s ease;
+  --sidebar-bg: var(--p-surface-card);
+  --sidebar-border: var(--p-surface-border);
+  --sidebar-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

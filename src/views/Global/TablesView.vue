@@ -151,6 +151,7 @@
 </template>
 
 <script setup lang="ts">
+// quite el onMounted xd prueba 3
 import { ref } from 'vue';
 import { Icon } from '@iconify/vue';
 import { FilterMatchMode } from '@primevue/core/api';

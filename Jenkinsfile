@@ -49,7 +49,7 @@ pipeline {
                 sh """
                     docker stop ${CONTAINER_NAME} || true
                     docker rm ${CONTAINER_NAME} || true
-                    docker run -d --restart unless-stopped --name ${CONTAINER_NAME} -p ${PORT}:${PORT} ${IMAGE_NAME}:latest
+                    docker run -d --restart unless-stopped --name ${CONTAINER_NAME} -p ${PORT}:80 ${IMAGE_NAME}:latest
                 """
             }
         }

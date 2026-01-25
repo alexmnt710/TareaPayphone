@@ -1,5 +1,7 @@
 # Sistema de Gestión de Negocio
 
+# prueba
+
 Aplicación web para gestión de negocio construida con Vue 3, TypeScript, PrimeVue y Tailwind CSS.
 
 ## 🚀 Características

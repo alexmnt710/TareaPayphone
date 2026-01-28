@@ -3,7 +3,7 @@
     <div class="mb-6">
       <h1 class="text-4xl font-bold mb-2" :style="{ color: 'var(--p-primary-600)' }">
         <Icon icon="mdi:store" width="40" height="40" :style="{ color: 'var(--p-primary-500)', verticalAlign: 'middle' }" />
-        Sistema de Ventas
+        Sistema de Ventas - Prueba Jenkins
       </h1>
       <p class="text-lg" :style="{ color: 'var(--p-text-color-secondary)' }">
         Bienvenido a tu tienda en línea con integración de Payphone
@@ -16,7 +16,7 @@
         <template #title>
           <span :style="{ color: 'var(--p-primary-600)' }">
             <Icon icon="mdi:shopping" width="28" height="28" :style="{ verticalAlign: 'middle' }" />
-            ¡Comienza tu compra!
+            ¡Comienza su compra!
           </span>
         </template>
         <template #content>
